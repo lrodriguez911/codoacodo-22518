@@ -1,0 +1,28 @@
+/* Selectores  */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font: 85% Verdana;
+    line-height: 1.4em;
+    color: #303030;
+    background: #888888;
+}
+h1,h2,h3{
+    padding:10px;
+}
+.clase {
+    color: aqua;
+    font-size: 13px;
+    border: 1px solid #ff0000;
+    padding: 2px 2px 2px 2px;
+    background: #6495ED;
+}
+#id{
+    width: 760px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px #ffff00 dotted;
+}

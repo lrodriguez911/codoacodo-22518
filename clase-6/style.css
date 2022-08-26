@@ -1,0 +1,15 @@
+/* pasar de em a px se tiene q multiplicar la medida em x px */
+
+/* 1em = 16px */
+.medida-absolutas{
+    font-size: 16px;
+}
+.em{
+    font-size: 1em;
+}
+.medida-relativas-em{
+    font-size: 1em;
+}
+.medida-relativas-rem{
+    font-size: 1rem;
+}

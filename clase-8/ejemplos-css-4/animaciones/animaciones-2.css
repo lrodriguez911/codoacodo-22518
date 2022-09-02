@@ -1,0 +1,31 @@
+animacion-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animacion-1; /*cambiar a cambiarColor2*/
+    animation-duration: 2s;
+    animation-timing-function: ease; /*cambiar a linear*/
+    animation-iteration-count: infinite;
+}
+animacion-2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(93, 0, 255);
+    animation-name: animacion-2; /*cambiar a cambiarColor2*/
+    animation-duration: 2s;
+    animation-timing-function: ease; /*cambiar a linear*/
+    animation-iteration-count: infinite;
+}
+@keyframes animacion-1 {
+    0% {background: red; width: 200px;}         /* Primer fotograma */
+    50% {background: yellow; width: 400px;}     /* Segundo fotograma */
+    100% {background: green; width: 600px;}     /* Último fotograma */    
+}
+
+@keyframes animacion-2 {
+    0% {background: rgb(93, 00, 255); width: 200px;}         /* Primer fotograma */
+    25% {background: rgb(93, 100, 255); width: 400px;}     /* Segundo fotograma */
+    50% {background: rgb(93, 200, 100); width: 600px;}     /* Tercer fotograma */    
+    75% {background: rgb(93, 255, 0); width: 400px;}     /* Cuarto fotograma */
+    0% {background: rgb(255, 150, 255); width: 200px;}         /* Último fotograma */
+}

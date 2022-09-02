@@ -1,0 +1,47 @@
+* {
+    font-family: Verdana;
+}
+
+h1 {
+    color: blue;
+    background-color: lightblue;
+}
+
+h2 {
+    color: teal;
+    background-color: lightgreen;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: tomato;
+    text-align: center;
+}
+.caja:hover{
+    transform: rotate(360deg);
+}
+.translate{transform: translate(50px, 10px);}
+.translate:hover{transform: translate(100px, 50px);
+    transition-duration: 5s;
+    transition-timing-function: ease;}
+
+.scale{transform: scale(1.4, 1.4);}
+.scale:hover{transform: scale(2, 1.6);}
+
+.rotatex{transform: rotateX(45deg);}
+.rotatex:hover{transform: rotateX(90deg);}
+
+.rotatey{transform: rotateY(45deg);}
+.rotatey:hover{transform: rotateY(45deg);}
+
+.rotate{transform: rotate(45deg);}
+.rotate:hover{transform: rotate(180deg);}
+
+.skewx{transform: skewX(30deg);}
+.skewx:hover{transform: skewX(30deg);}
+
+.skewy{transform: skewY(30deg);}
+.skewy:hover{transform: skewY(60deg);}
+

@@ -1,0 +1,11 @@
+.clase{
+    border: 1px blue solid;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.nuevaClase{
+    text-decoration: none;
+    color: red;
+    background-color: lightcoral;
+    padding: 5px;
+}

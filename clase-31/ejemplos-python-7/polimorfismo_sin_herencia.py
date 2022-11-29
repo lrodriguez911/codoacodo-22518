@@ -27,7 +27,7 @@ class Camion:
     def desplazamiento(self):
         print("Me desplazo utilizando seis ruedas")
 
-'''
+
 #Programa principal (sin polimorfismo)
 #Utilizamos el mismo método/comportamiento, pero pertenece a clases diferentes
 
@@ -39,7 +39,7 @@ vehiculo2.desplazamiento() #Método del objeto
 
 vehiculo3 = Camion() #Instancia de la clase Camion
 vehiculo3.desplazamiento() #Método del objeto
-'''
+
 
 '''
 
